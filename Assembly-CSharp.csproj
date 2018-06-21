@@ -66,6 +66,7 @@
     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
     <Compile Include="Assets\HUD_Manager.cs" />
+    <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
     <Compile Include="Assets\Scenes\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Scenes\Standard Assets\Cameras\Scripts\AutoCam.cs" />
     <Compile Include="Assets\Scenes\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
@@ -142,6 +143,9 @@
     <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\TwinViewScript.cs" />
     <Compile Include="Assets\TaichiCharacterPack\Viewer\Scripts\SceneScript.cs" />
     <Compile Include="Assets\TaichiCharacterPack\Viewer\Scripts\ViewScript.cs" />
+    <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
+    <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
+    <Compile Include="Assets\torch\scripts\Torchelight.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
@@ -155,6 +159,7 @@
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\M01\animation_list.txt" />
     <None Include="Assets\Scenes\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\background_list.txt" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\shader info.txt" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\Scenes\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Asphodel\facial_texture_list_b.txt" />
@@ -210,11 +215,13 @@
     <None Include="Assets\Scenes\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Rhino\Sheder\StandardDoubleSided.shader" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F02\animation_list_all.txt" />
+    <None Include="Assets\torch\readme.txt" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\TaichiCharacterPack\Shaders\toon_hair.shader" />
     <None Include="Assets\Scenes\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Scenes\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F02\fbx_list.txt" />
     <None Include="Assets\TaichiCharacterPack\Viewer\Resources\Taichi\Viewer Settings\fbx_ctrl.xml" />
     <None Include="Assets\Scenes\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -230,6 +237,7 @@
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Asphodel\fbx_ctrl.xml" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/SBCS/Documents/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

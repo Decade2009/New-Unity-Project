@@ -13,10 +13,10 @@ public class HUD_Manager : MonoBehaviour {
 		scoretext.text = "Rings: " + score;
 	}
 
-	void UpdateScore(int amount)
+	public void UpdateScore(int amount)
 	{
 		score = score + amount;
-		scoretext.text = "Score: " + score;
+		scoretext.text = "Rings: " + score;
 
 	}
 }
