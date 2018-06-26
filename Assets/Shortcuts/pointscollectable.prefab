@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4623056233141404}
   - component: {fileID: 65990619049116600}
   - component: {fileID: 114372249113575318}
+  - component: {fileID: 114776912113489668}
   m_Layer: 0
   m_Name: pointscollectable
   m_TagString: Untagged
@@ -138,3 +139,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 1
+--- !u!114 &114776912113489668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1014297817044160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5c47dda19e9db46a9e6e79077b6eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackDamage: 1
