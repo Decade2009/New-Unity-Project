@@ -61,10 +61,12 @@
   <ItemGroup>
     <Compile Include="Assets\Attack.cs" />
     <Compile Include="Assets\CollectableScript.cs" />
+    <Compile Include="Assets\EnemyStats.cs" />
     <Compile Include="Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_Demo.cs" />
     <Compile Include="Assets\Fantasy Skybox FREE\Demo\Scripts\GE_FantasySkyboxFREE_UIs.cs" />
     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+    <Compile Include="Assets\HitEnemy.cs" />
     <Compile Include="Assets\HitPlayer.cs" />
     <Compile Include="Assets\HUD_Manager.cs" />
     <Compile Include="Assets\PlayerScript.cs" />
@@ -169,6 +171,7 @@
     <None Include="Assets\Scenes\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
     <None Include="Assets\Scenes\Standard Assets\Effects\Projectors\Guidelines.txt" />
     <None Include="Assets\TaichiCharacterPack\Viewer\Resources\Taichi\Viewer Settings\fbx_list.txt" />
+    <None Include="Assets\ErbGameArt\AnimeWeapon\Shaders\SwordLightning.shader" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Arum\facial_texture_list_a.txt" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\stage_texture_list.txt" />
     <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Arum\fbx_list.txt" />
