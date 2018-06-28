@@ -11,6 +11,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         public ThirdPersonCharacter character { get; private set; } // the character we are controlling
         public Transform target;                                    // target to aim for
         public Animator anim;
+        public bool InRadius;
 
         private void Start()
         {
@@ -18,7 +19,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             agent = GetComponentInChildren<UnityEngine.AI.NavMeshAgent>();
             character = GetComponent<ThirdPersonCharacter>();
             anim = GetComponent<Animator>();
-
+            InRadius = false;
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
         }
@@ -26,6 +27,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
         private void Update()
         {
+          if(InRadius = true){
             if (target != null){
                 agent.SetDestination(target.position);
               }
@@ -37,6 +39,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
                 character.Move(Vector3.zero, false, false);
                 anim.SetBool("Attacking", true);
               }
+            }
         }
 
 
